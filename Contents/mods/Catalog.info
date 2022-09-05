@@ -11,6 +11,9 @@ MOD: Disable TSar Zone Checks (Server Side)
     lua/server/metazones/aquaZones.lua
     luia/server/metazones/TSARZones.lua
 
+MOD: Faster Tire Inflation
+    lua/client/Vehicles/ISUI/ISVehicleParkMenu.lua
+
 PATCH: 78 AM General M35A2 Axle
     scripts/SBTweakCar_Recipes_78AMGeneralM35A2.txt
 
