@@ -18,6 +18,9 @@ MOD: Propane Truck functionality
     lua/client/Vehicles/ISUI/PropaneTruckTank_ISVehicleMenu_FillPartMenu.lua
     lua/client/Vehicles/ISUI/PropaneTruckTank_ISVehiclePartMenu.lua
 
+MOD: Remove Autotsar Interior Furniture (We use interior mods)
+    scripts/vehicles/trailer_home.txt
+
 PATCH: 78 AM General M35A2 Axle
     scripts/SBTweakCar_Recipes_78AMGeneralM35A2.txt
 
