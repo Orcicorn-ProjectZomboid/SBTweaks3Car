@@ -1,3 +1,12 @@
+ADD: Make Engine Parts
+    lua/shared/Translate/EN/Recipes_EN.txt
+    scripts/SBTweakCar_Recipes_CarParts.txt
+
+ADD: Reupholster Seats
+    lua/client/SBTweakCar_Recipes_CarSeats.lua
+    lua/shared/Translate/EN/Recipes_EN.txt
+    scripts/SBTweakCar_Recipes_CarSeats.txt
+
 PATCH: 78 AM General M35A2 Axle
     scripts/SBTweakCar_Recipes_78AMGeneralM35A2.txt
 
@@ -9,12 +18,3 @@ PATCH: ATA Bullbar's are fixable
 
 TWEAK: Vehicle Spawns (Various mods)
     lua/shared/SBTweakCar_Distribution_Tweaks.lua
-
-Make Engine Parts
-    lua/shared/Translate/EN/Recipes_EN.txt
-    scripts/SBTweakCar_Recipes_CarParts.txt
-
-Reupholster Seats
-    lua/client/SBTweakCar_Recipes_CarSeats.lua
-    lua/shared/Translate/EN/Recipes_EN.txt
-    scripts/SBTweakCar_Recipes_CarSeats.txt
