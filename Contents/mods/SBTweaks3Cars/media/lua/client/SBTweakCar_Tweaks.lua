@@ -1,5 +1,24 @@
 require "VehicleTweaker_Core";
 
+-- 74 M151A2 (Mutt)
+if getActivatedMods():contains("74amgeneralM151A2") then
+    TweakVehicle("Base.74amgeneralM151A2", "engineForce", 5500);
+    TweakVehicle("Base.74amgeneralM151A2", "rearEndHealth", 500);
+end
+
+-- 78 M35A2 (Deuce)
+if getActivatedMods():contains("78amgeneralM35A2") then
+    TweakVehicle("Base.78amgeneralM35A2", "maxSpeed", 65f)
+    TweakVehicle("Base.78amgeneralM35A2", "mass", 750);
+    TweakVehicle("Base.78amgeneralM35A2", "isSmallVehicle", False);
+    TweakVehicle("Base.78amgeneralM35A2", "offRoadEfficiency", 10.0);
+end
+
+-- 92 M998 Hummer 2642541073
+if getActivatedMods():contains("92amgeneralM998") then
+    TweakVehicle("Base.92amgeneralM998", "engineForce", 6200);
+end
+
 -- ATA Bus 2592358528
 if getActivatedMods():contains("ATA_Bus") then
     TweakVehicle("Base.ATASchoolBus", "engineForce", 5500);
