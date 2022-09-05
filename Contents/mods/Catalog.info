@@ -45,6 +45,13 @@ SKIN: 92 Nissan GTR
     textures/Vehicles/Vehicles_92nissanGTR_Shell_yellow.png
     textures/Vehicles/Vehicles_92nissanGTR_Shell.png
 
+SKIN: ATA Dadge
+    textures/Vehicles/ATA_Dodge_base_green.png
+    textures/Vehicles/ATA_Dodge_base_ppg.png
+    textures/Vehicles/ATA_Dodge_base_turquoise.png
+    textures/Vehicles/ATA_Dodge_light.png
+    textures/Vehicles/ATA_Dodge_wheel_ppg.png
+
 SKIN: ATA Jeep
     textures/Vehicles/ATA_Jeep_base_1_egnh.png
     textures/Vehicles/ATA_Jeep_base_1.png
