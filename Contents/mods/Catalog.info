@@ -1,6 +1,9 @@
 PATCH: 78 AM General M35A2 Axle
     scripts/SBTweakCar_Recipes_78AMGeneralM35A2.txt
 
+PATCH: 92 Nissan GTR Fixers 
+    scripts/SBTweakCar_Fixer_92NissanGTR.txt
+
 PATCH: ATA Bullbar's are fixable
     scripts/SBTweakCar_Fixer_ATABullbars.txt
 
