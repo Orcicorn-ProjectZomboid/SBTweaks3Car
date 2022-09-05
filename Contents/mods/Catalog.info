@@ -14,6 +14,10 @@ MOD: Disable TSar Zone Checks (Server Side)
 MOD: Faster Tire Inflation
     lua/client/Vehicles/ISUI/ISVehicleParkMenu.lua
 
+MOD: Propane Truck functionality
+    lua/client/Vehicles/ISUI/PropaneTruckTank_ISVehicleMenu_FillPartMenu.lua
+    lua/client/Vehicles/ISUI/PropaneTruckTank_ISVehiclePartMenu.lua
+
 PATCH: 78 AM General M35A2 Axle
     scripts/SBTweakCar_Recipes_78AMGeneralM35A2.txt
 
