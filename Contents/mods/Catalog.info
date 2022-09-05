@@ -7,6 +7,10 @@ ADD: Reupholster Seats
     lua/shared/Translate/EN/Recipes_EN.txt
     scripts/SBTweakCar_Recipes_CarSeats.txt
 
+MOD: Disable TSar Zone Checks (Server Side)
+    lua/server/metazones/aquaZones.lua
+    luia/server/metazones/TSARZones.lua
+
 PATCH: 78 AM General M35A2 Axle
     scripts/SBTweakCar_Recipes_78AMGeneralM35A2.txt
 
