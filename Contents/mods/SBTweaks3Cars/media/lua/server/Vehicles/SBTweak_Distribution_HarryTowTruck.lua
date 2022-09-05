@@ -1,5 +1,5 @@
 if VehicleZoneDistribution then
-    if getActivatedMod():contains("HTowTruckFix") then
+    if getActivatedMods():contains("HTowTruckFix") then
         VehicleZoneDistribution.parkingstall.vehicles["Base.Chevalier_Rhino_TowTruck"] = {index = -1, spawnChance = 0.01};
         VehicleZoneDistribution.trailerpark.vehicles["Base.Chevalier_Rhino_TowTruck"] = {index = -1, spawnChance = 5};
         VehicleZoneDistribution.bad.vehicles["Base.Chevalier_Rhino_TowTruck"] = {index = -1, spawnChance = 1};

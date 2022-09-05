@@ -1,5 +1,5 @@
 if VehicleZoneDistribution then -- check if the table exists for backwards compatibility
-    if getActivatedMod():contains("FRUsedCars") then
+    if getActivatedMods():contains("FRUsedCars") then
         -- Remove Filibuster's Military vehicles since we're using KI5 instead
         VehicleZoneDistribution.Military.vehicles["Base.hmmwvht"] = nil;
         VehicleZoneDistribution.Military.vehicles["Base.hmmwvtr"] = nil;
