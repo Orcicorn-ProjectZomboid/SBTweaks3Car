@@ -7,6 +7,9 @@ PATCH: 92 Nissan GTR Fixers
 PATCH: ATA Bullbar's are fixable
     scripts/SBTweakCar_Fixer_ATABullbars.txt
 
+TWEAK: Vehicle Spawns (Various mods)
+    lua/shared/SBTweakCar_Distribution_Tweaks.lua
+
 Make Engine Parts
     lua/shared/Translate/EN/Recipes_EN.txt
     scripts/SBTweakCar_Recipes_CarParts.txt
