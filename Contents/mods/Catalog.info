@@ -31,5 +31,19 @@ PATCH: Vehicle Tweaks
     lua/client/VehicleTweaker_Core.lua
     lua/client/SBTweakCar_Tweaks.lua
 
+SKIN: 92 Nissan GTR
+    textures/Vehicles/92nissanGTR_shadow_SE.png
+    textures/Vehicles/Vehicles_92nissanGTR_Shell_bikini_red.png
+    textures/Vehicles/Vehicles_92nissanGTR_Shell_black.png
+    textures/Vehicles/Vehicles_92nissanGTR_Shell_dark_blue.png
+    textures/Vehicles/Vehicles_92nissanGTR_Shell_green.png
+    textures/Vehicles/Vehicles_92nissanGTR_Shell_light_blue.png
+    textures/Vehicles/Vehicles_92nissanGTR_Shell_purple.png
+    textures/Vehicles/Vehicles_92nissanGTR_Shell_red.png
+    textures/Vehicles/Vehicles_92nissanGTR_Shell_silver.png
+    textures/Vehicles/Vehicles_92nissanGTR_Shell_special_edition.png
+    textures/Vehicles/Vehicles_92nissanGTR_Shell_yellow.png
+    textures/Vehicles/Vehicles_92nissanGTR_Shell.png
+
 TWEAK: Vehicle Spawns (Various mods)
     lua/shared/SBTweakCar_Distribution_Tweaks.lua
