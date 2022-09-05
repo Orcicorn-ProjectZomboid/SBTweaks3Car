@@ -45,5 +45,21 @@ SKIN: 92 Nissan GTR
     textures/Vehicles/Vehicles_92nissanGTR_Shell_yellow.png
     textures/Vehicles/Vehicles_92nissanGTR_Shell.png
 
+SKIN: ATA Jeep
+    textures/Vehicles/ATA_Jeep_base_1_egnh.png
+    textures/Vehicles/ATA_Jeep_base_1.png
+    textures/Vehicles/ATA_Jeep_base_2_egnh.png
+    textures/Vehicles/ATA_Jeep_base_2.png
+    textures/Vehicles/ATA_Jeep_base_3_egnh.png
+    textures/Vehicles/ATA_Jeep_base_3.png
+    textures/Vehicles/ATA_Jeep_base_4_egnh.png
+    textures/Vehicles/ATA_Jeep_base_4.png
+    textures/Vehicles/ATA_Jeep_base_5_egnh.png
+    textures/Vehicles/ATA_Jeep_base_5.png
+    textures/Vehicles/ATA_Jeep_base_6_egnh.png
+    textures/Vehicles/ATA_Jeep_base_6.png
+    textures/Vehicles/ATA_Jeep_base_7_egnh.png
+    textures/Vehicles/ATA_Jeep_base_7.png
+
 TWEAK: Vehicle Spawns (Various mods)
     lua/shared/SBTweakCar_Distribution_Tweaks.lua
