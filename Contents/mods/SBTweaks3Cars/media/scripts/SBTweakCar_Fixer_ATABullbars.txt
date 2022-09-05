@@ -1,0 +1,26 @@
+module Base
+{
+    fixing Fix ATADodgeBullbar3Item {
+        Require: ATADodgeBullbar3Item,
+        Globalitem: BlowTorch=5,
+        Fixer: SheetMetal;MetalWelding=3;Mechanics=2,
+        Fixer: SmallSheetMetal=3; MetalWelding=3;Mechanics=2,
+        Fixer: MetalPipe=8; MetalWelding=3;Mechanics=2,
+    }
+
+    fixing Fix ATAJeepBumper4Item {
+        Require: ATAJeepBumper4Item,
+        Globalitem: BlowTorch=5,
+        Fixer: SheetMetal;MetalWelding=1;Mechanics=2,
+        Fixer: SmallSheetMetal=4; MetalWelding=1;Mechanics=2,
+        Fixer: MetalPipe=8; MetalWelding=1;Mechanics=2,
+    }
+
+    fixing Fix ATAMustangBullbar3Item {
+        Require: ATAMustangBullbar3Item,
+        Globalitem: BlowTorch=5,
+        Fixer: SheetMetal;MetalWelding=4;Mechanics=2,
+        Fixer: SmallSheetMetal=2; MetalWelding=4;Mechanics=2,
+        Fixer: MetalPipe=4; MetalWelding=4;Mechanics=2,
+    }
+}
