@@ -49,27 +49,8 @@ if getActivatedMods():contains("autotsartrailers") then
     VehicleZoneDistribution.farm.vehicles["Base.TrailerGenerator"] = {index = -1, spawnChance = 4};
 end
 
--- Filibuster Used Car Tweaks
-if getActivatedMods():contains("FRUsedCars") then
-    -- Remove Filibuster Used Cards M35A2
-    VehicleZoneDistribution.trafficjamw.vehicles["Base.m35a2bed"] = {index = -1, spawnChance = 0};
-    VehicleZoneDistribution.trafficjamw.vehicles["Base.m35a2covered"] = {index = -1, spawnChance = 0};
-    VehicleZoneDistribution.military.vehicles["Base.m35a2bed"] = {index = -1, spawnChance = 0};
-    VehicleZoneDistribution.military.vehicles["Base.m35a2covered"] = {index = -1, spawnChance = 0};
-
-    -- Remove Filibuster Used Cards Hummer
-    VehicleZoneDistribution.trafficjamw.vehicles["Base.hmmwvht"] = {index = -1, spawnChance = 0};
-    VehicleZoneDistribution.trafficjamw.vehicles["Base.hmmwvtr"] = {index = -1, spawnChance = 0};
-    VehicleZoneDistribution.military.vehicles["Base.hmmwvht"] = {index = -1, spawnChance = 0};
-    VehicleZoneDistribution.military.vehicles["Base.hmmwvtr"] = {index = -1, spawnChance = 0};
-end 
-
 -- If Fort Redstone is enabled tweak his custom spawns
 if getActivatedMods():contains("FORTREDSTONE") then
-    -- Disable Filibuster Cars
-    VehicleZoneDistribution.militarycar.vehicles["Base.hmmwvht"] = {index = -1, spawnChance = 0};
-    VehicleZoneDistribution.militarycar.vehicles["Base.hmmwvtr"] = {index = -1, spawnChance = 0};
-    VehicleZoneDistribution.militarycar.vehicles["Base.m151canvas"] = {index = -1, spawnChance = 0};
     -- Substitute Ki5 Military Vehicles if enabled
     if getActivatedMods():contains("92amgeneralM998") then
         VehicleZoneDistribution.militarycar.vehicles["Base.92amgeneralM998"] = {index = -1, spawnChance = 30};
