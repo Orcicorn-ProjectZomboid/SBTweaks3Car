@@ -1,6 +1,7 @@
 version=1
 id=2859141164
-title=Space Bro Vehicle Tweaks (Version 3.0)
-description=Car Reskins
+title=SBTweaks.Car (Version 3.0)
+description=Car Reskins, Tweaks and Redistributions
+description=https://github.com/Orcicorn-ProjectZomboid/SBTweaks3Car
 tags=Build 41;Textures;Vehicles
 visibility=unlisted
