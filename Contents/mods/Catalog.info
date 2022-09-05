@@ -61,5 +61,15 @@ SKIN: ATA Jeep
     textures/Vehicles/ATA_Jeep_base_7_egnh.png
     textures/Vehicles/ATA_Jeep_base_7.png
 
+SKIN: ATA Mustang
+    textures/Vehicles/ATA_Mustang_base_blue.png
+    textures/Vehicles/ATA_Mustang_base_brown.png
+    textures/Vehicles/ATA_Mustang_base_gray.png
+    textures/Vehicles/ATA_Mustang_base_green.png
+    textures/Vehicles/ATA_Mustang_base_police.png
+    textures/Vehicles/ATA_Mustang_base_red.png
+    textures/Vehicles/ATA_Mustang_base_yellow.png
+    textures/Vehicles/ATA_Mustang_base0.png
+
 TWEAK: Vehicle Spawns (Various mods)
     lua/shared/SBTweakCar_Distribution_Tweaks.lua
