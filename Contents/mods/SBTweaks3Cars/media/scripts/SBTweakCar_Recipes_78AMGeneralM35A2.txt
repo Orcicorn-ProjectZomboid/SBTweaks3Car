@@ -1,0 +1,12 @@
+module RunFlat {
+    recipe Dismantle M35A2 RunFlat 4 Tire Axle (Expert) {
+		keep LugWrench,
+		V103Axle2,
+		Result:V103Tire2=4,
+		Sound:Hammering,
+		Time:800.0,
+		Category:M35A2,
+		SkillRequired:Mechanics=5,
+		CanBeDoneFromFloor:true,
+	}   
+}
