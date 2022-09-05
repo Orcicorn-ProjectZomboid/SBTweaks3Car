@@ -1,0 +1,20 @@
+module Base {
+	recipe SBTCMakeEnginePart {
+	    keep Wrench,
+	    keep [Recipe.GetItemTypes.WeldingMask],
+	    BlowTorch=10,
+	    WeldingRods=5,
+        ScrapMetal,
+	    MetalPipe=2,
+	    SheetMetal=1,
+	    MetalBar,
+	    Screws=8,
+	    Result:EngineParts=25,
+	    OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	    OnGiveXP:Recipe.OnGiveXP.Give20MechanicsXP,
+	    SkillRequired:Mechanics=5,
+	    Time:120.0,
+	    Sound:BlowTorch,
+	    NeedToBeLearn:False,
+    }
+}

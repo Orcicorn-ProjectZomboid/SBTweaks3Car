@@ -1,0 +1,52 @@
+module Base {
+
+    /* Fixing Changes (Drop Glue, Add Clothg) */
+    fixing Fix Car seat {
+        Require : NormalCarSeat1;NormalCarSeat2;NormalCarSeat3,
+	    ConditionModifier : 2.0,
+        Fixer:  RippedSheets=3; Tailoring=2,
+        Fixer : DuctTape=2;Mechanics=1,
+        Fixer : Glue=1;Mechanics=1,
+	}
+
+    /* Recipes to Upholster Seats */
+    recipe SBTCUpholsterSeats1{
+        destroy NormalCarSeat1,
+        keep Needle,
+        Thread=3,
+        LeatherStrips=6,
+        Result: NormalCarSeat1,
+        Time:240.0,
+        Category:Tailoring,
+        SkillRequired: Tailoring=5,
+        OnCreate:SBTweaksCar_UpholsterSeats,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe SBTCUpholsterSeats2{
+        destroy NormalCarSeat2,
+        keep Needle,
+        Thread=3,
+        LeatherStrips=6,
+        Result: NormalCarSeat2,
+        Time:240.0,
+        Category:Tailoring,
+        AnimNode:BuildLow,
+        SkillRequired: Tailoring=5,
+        OnCreate:SBTweaksCar_UpholsterSeats,
+    }
+
+    recipe SBTCUpholsterSeats3{
+        destroy NormalCarSeat3,
+        keep Needle,
+        Thread=3,
+        LeatherStrips=6,
+        Result: NormalCarSeat3,
+        Time:240.0,
+        Category:Tailoring,
+        AnimNode:BuildLow,
+        SkillRequired: Tailoring=5,
+        OnCreate:SBTweaksCar_UpholsterSeats,
+        CanBeDoneFromFloor:true,
+    }
+}

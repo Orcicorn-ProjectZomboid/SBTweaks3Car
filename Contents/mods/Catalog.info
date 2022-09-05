@@ -1,0 +1,8 @@
+Make Engine Parts
+    lua/shared/Translate/EN/Recipes_EN.txt
+    scripts/SBTweakCar_Recipes_CarParts.txt
+
+Reupholster Seats
+    lua/client/SBTweakCar_Recipes_CarSeats.lua
+    lua/shared/Translate/EN/Recipes_EN.txt
+    scripts/SBTweakCar_Recipes_CarSeats.txt

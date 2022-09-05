@@ -1,0 +1,9 @@
+Recipe_EN = {
+    /* Generic Recipes */
+    Recipe_SBTCMakeEnginePart = "Make Engine Parts",
+
+    /* Seat Upholstering */
+    Recipe_SBTCUpholsterSeats1 = "Reupholster seat",
+    Recipe_SBTCUpholsterSeats2 = "Reupholster seat",
+    Recipe_SBTCUpholsterSeats3 = "Reupholster seat",
+}
