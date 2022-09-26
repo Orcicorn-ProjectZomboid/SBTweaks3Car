@@ -8,10 +8,17 @@ end
 
 -- 78 M35A2 (Deuce)
 if getActivatedMods():contains("78amgeneralM35A2") then
-    TweakVehicle("Base.78amgeneralM35A2", "maxSpeed", 65f)
-    TweakVehicle("Base.78amgeneralM35A2", "mass", 750);
+    TweakVehicle("Base.78amgeneralM35A2", "maxSpeed", 69f)
+    TweakVehicle("Base.78amgeneralM35A2", "mass", 950);
     TweakVehicle("Base.78amgeneralM35A2", "isSmallVehicle", False);
-    TweakVehicle("Base.78amgeneralM35A2", "offRoadEfficiency", 10.0);
+    TweakVehicle("Base.78amgeneralM35A2", "offRoadEfficiency", 4.0);
+    -- Copied Gear ratios from the Hummer
+    TweakVehicle("Base.78amgeneralM35A2", "rollInfluence", 0.95f);
+    TweakVehicle("Base.78amgeneralM35A2", "gearRatioR", 14.4);
+    TweakVehicle("Base.78amgeneralM35A2", "gearRatio1", 13.3);
+    TweakVehicle("Base.78amgeneralM35A2", "gearRatio2", 9.6);
+    TweakVehicle("Base.78amgeneralM35A2", "gearRatio3", 5.93);
+    TweakVehicle("Base.78amgeneralM35A2", "gearRatio4", 3.94);
 end
 
 -- 92 M998 Hummer 2642541073

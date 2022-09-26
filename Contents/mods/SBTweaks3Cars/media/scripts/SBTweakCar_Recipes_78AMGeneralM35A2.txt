@@ -9,4 +9,15 @@ module RunFlat {
 		SkillRequired:Mechanics=5,
 		CanBeDoneFromFloor:true,
 	}   
+
+	recipe Convert to M35A2 Door {
+		BlowTorch = 10,
+		keep WeldingMask,
+		Base.FrontCarDoor2,
+		Result:Base.M35A2Door2,
+		Time: 120.0,
+		Category:M35A2,
+		SkillRequired:MetalWelding=2;Mechanics=2,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding20,
+	}
 }
