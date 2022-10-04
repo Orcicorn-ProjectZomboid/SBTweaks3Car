@@ -65,3 +65,8 @@ if getActivatedMods():contains("FORTREDSTONE") then
         VehicleZoneDistribution.militarycar.vehicles["Base.78amgeneralM50A3"] = {index = -1, spawnChance = 10};
     end
 end
+
+-- 86 Ford Econoline E150 (Spawns too much in "transit.vehicle"
+if getActivatedMods():contains("86fordE150") then
+    VehicleZoneDistribution.transit.vehicles["Base.86fordE150long"] = {index = -1, spawnChance = 10};
+end
