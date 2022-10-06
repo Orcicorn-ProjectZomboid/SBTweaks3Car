@@ -15,5 +15,17 @@ if VehicleZoneDistribution then -- check if the table exists for backwards compa
 
         VehicleZoneDistribution.military.vehicles["Base.m151canvas"] = nil;
         VehicleZoneDistribution.trafficjamw.vehicles["Base.m151canvas"] = nil;
+
+        -- Remove Filibuster Bus
+        VehicleZoneDistribution.trailerpark.vehicles["Base.schoolbus"] = nil;
+        VehicleZoneDistribution.trailerpark.vehicles["Base.schoolbusshort"] = nil;
+        VehicleZoneDistribution.bad.vehicles["Base.schoolbus"] = nil;
+        VehicleZoneDistribution.bad.vehicles["Base.schoolbusshort"] = nil;
+        VehicleZoneDistribution.medium.vehicles["Base.schoolbus"] = nil;
+        VehicleZoneDistribution.medium.vehicles["Base.schoolbusshort"] = nil;
+        VehicleZoneDistribution.junkyard.vehicles["Base.schoolbus"] = nil;
+        VehicleZoneDistribution.junkyard.vehicles["Base.schoolbusshort"] = nil;
+        VehicleZoneDistribution.trafficjamw.vehicles["Base.schoolbus"] = nil;
+        VehicleZoneDistribution.trafficjamw.vehicles["Base.schoolbusshort"] = nil;
     end
 end
