@@ -31,10 +31,10 @@ PATCH: ATA Bullbar's are fixable
     scripts/SBTweakCar_Fixer_ATABullbars.txt
 
 PATCH: Filibuster Military Vehicle removal
-    lua/server/Vehicles/SBTweak_Distribution_Filibuster.lua
+    lua/shared/SBTweak_Distribution_Filibuster.lua
 
 PATCH: Harry's Tow Truck Spawn rates 
-    lua/server/Vehicles/SBTweak_Distribution_HarryTowTruck.lua
+    lua/shared/SBTweak_Distribution_HarryTowTruck.lua
 
 PATCH: Vehicle Tweaks
     lua/client/VehicleTweaker_Core.lua
