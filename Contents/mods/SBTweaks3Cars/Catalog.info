@@ -36,6 +36,10 @@ PATCH: Filibuster Military Vehicle removal
 PATCH: Harry's Tow Truck Spawn rates 
     lua/shared/SBTweak_Distribution_HarryTowTruck.lua
 
+PATCH: Skizo's Riding Lawn Mower
+    lua/client/Vehicles/RidingMower.lua
+    lua/shared/SBTweaks_Distribution_RidingMower.lua
+
 PATCH: Vehicle Tweaks
     lua/client/VehicleTweaker_Core.lua
     lua/client/SBTweakCar_Tweaks.lua
