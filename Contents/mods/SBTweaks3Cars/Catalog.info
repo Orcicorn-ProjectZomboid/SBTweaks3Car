@@ -43,6 +43,7 @@ PATCH: Skizo's Riding Lawn Mower
 PATCH: Vehicle Tweaks
     lua/client/VehicleTweaker_Core.lua
     lua/client/SBTweakCar_Tweaks.lua
+    lua/client/SBTweakCar_Tweaks.lua
 
 SKIN: 74 AM General
     textures/Vehicles/Vehicles_74amgeneralm151A2_Shell_black.png

@@ -56,3 +56,13 @@ if getActivatedMods():contains("ATA_Mustang") then
     TweakVehicle("Base.ATAMustangClassic", "rearEndHealth", 500);
     TweakVehicle("Base.ATAMustangPolice", "rearEndHealth", 500);
 end
+
+-- Riding Mower
+if getActivatedMods():contains("RidingMower") then
+    TweakVehicle("Base.RidingMower", "engineLoudness", 110);
+    TweakVehicle("Base.RidingMower", "engineLoudness", 110);
+    TweakVehicle("Base.MiniMower", "engineLoudness", 110);
+    TweakVehicle("Base.RidingMower", "engineRPMType", "van");
+    TweakVehicle("Base.RacingMower", "engineRPMType", "van");
+    TweakVehicle("Base.MiniMower", "engineRPMType", "van");
+end
