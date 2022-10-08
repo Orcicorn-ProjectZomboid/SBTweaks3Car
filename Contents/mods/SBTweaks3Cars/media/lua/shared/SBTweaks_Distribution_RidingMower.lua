@@ -19,8 +19,8 @@ if VehicleZoneDistribution then
         end
 
         -- if TSARLib installed, add trailer to small trailers
-        if getActivatedMods():contains("tsarslib") then
-            VehicleZoneDistribution.smalltrailerparkinglot.vehicles["Base.RidingMower_Trailer"] = {index = -1, spawnChance = 1};
-        end
+        -- if getActivatedMods():contains("tsarslib") then
+        --     VehicleZoneDistribution.smalltrailerparkinglot.vehicles["Base.RidingMower_Trailer"] = {index = -1, spawnChance = 1};
+        -- end
     end
 end
