@@ -70,3 +70,8 @@ end
 if getActivatedMods():contains("86fordE150") then
     VehicleZoneDistribution.transit.vehicles["Base.86fordE150long"] = {index = -1, spawnChance = 10};
 end
+
+if getActivatedMods():contains("86fordE150dnd") then
+    VehicleZoneDistribution.parkingstall.vehicles["Base.86fordE150dnd"] = {index = -1, spawnChance = 0.1};
+    VehicleZoneDistribution.fossoil.vehicles["Base.86fordE150dnd"] = {index = -1, spawnChance = 0.5};
+end
