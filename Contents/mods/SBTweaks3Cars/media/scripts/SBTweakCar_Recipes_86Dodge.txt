@@ -1,0 +1,13 @@
+module Base {
+    recipe Make E150 Divider {
+        BlowTorch=5,
+       	keep WeldingMask,
+		SheetMetal=2,
+		Screws=2,
+        Result: Base.E150Divider,
+        Time:250.0,
+		Category:E150,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+    }
+}
