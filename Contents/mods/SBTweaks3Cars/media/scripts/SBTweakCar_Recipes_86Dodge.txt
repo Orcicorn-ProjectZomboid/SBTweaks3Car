@@ -1,4 +1,5 @@
 module Base {
+	/* No recipe for this exists */
     recipe Make E150 Divider {
         BlowTorch=5,
        	keep WeldingMask,
@@ -10,4 +11,24 @@ module Base {
 		SkillRequired:MetalWelding=4,
 		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
     }
+
+	/* No recipe for this exists */
+	recipe Convert to E150 Tire {
+		keep LugWrench,
+		Base.OldTire2/Base.NormalTire2/Base.ModernTire2=1,
+		Result: E150Tire2,
+		Time: 250.0,
+		SkillRequired:Mechanics=2,
+	}
+
+	/* Default Recipe incorrectly uses front windshield */
+	recipe Make E150 Rear Windshield {
+		keep Scalpel,
+		RearWindshield2=1,
+		Result:E150RearWindshield2,
+		Time:250.0,
+		Category:E150,
+		SkillRequired:Mechanics=1,
+		Prop1:Scalpel,
+	}
 }
