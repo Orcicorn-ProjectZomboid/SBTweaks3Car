@@ -4,10 +4,10 @@ if getActivatedMods():contains("amclub") then
     VehicleZoneDistribution.parkingstall.vehicles["Base.AMC_bmw_classic"] = {index = -1, spawnChance = 1};
     VehicleZoneDistribution.parkingstall.vehicles["Base.AMC_bmw_custom"] = {index = -1, spawnChance = 1};
     VehicleZoneDistribution.parkingstall.vehicles["Base.AMC_harley"] = {index = -1, spawnChance = 1};
-    VehicleZoneDistribution.parkingstall.vehicles["Base.AMC_quad"] = {index = -1, spawnChance = 0};
+    VehicleZoneDistribution.parkingstall.vehicles["Base.AMC_quad"] = {index = -1, spawnChance = 0.5};
 
     -- Trailer Parks --
-    VehicleZoneDistribution.trailerpark.vehicles["Base.AMC_quad"] = {index = -1, spawnChance = 3};
+    VehicleZoneDistribution.trailerpark.vehicles["Base.AMC_quad"] = {index = -1, spawnChance = 8};
     VehicleZoneDistribution.trailerpark.vehicles["Base.AMC_harley"] = {index = -1, spawnChance = 1};
 
     -- Junk spawns --
@@ -21,11 +21,11 @@ if getActivatedMods():contains("amclub") then
     VehicleZoneDistribution.farm = VehicleZoneDistribution.farm or {}
     VehicleZoneDistribution.farm.vehicles = VehicleZoneDistribution.farm.vehicles or {}
     VehicleZoneDistribution.farm.vehicles["Base.AMC_harley"] = {index = -1, spawnChance = 0};
-    VehicleZoneDistribution.farm.vehicles["Base.AMC_quad"] = {index = -1, spawnChance = 0};
+    VehicleZoneDistribution.farm.vehicles["Base.AMC_quad"] = {index = -1, spawnChance = 1};
     VehicleZoneDistribution.mccoy.vehicles["Base.AMC_quad"] = {index = -1, spawnChance = 3};
-    VehicleZoneDistribution.fossoil.vehicles["Base.AMC_quad"] = {index = -1, spawnChance = 1};
-    VehicleZoneDistribution.postal.vehicles["Base.AMC_bmw_classic"] = {index = -1, spawnChance = 0};
-    VehicleZoneDistribution.postal.vehicles["Base.AMC_quad"] = {index = -1, spawnChance = 0};
+    VehicleZoneDistribution.fossoil.vehicles["Base.AMC_quad"] = {index = -1, spawnChance = 0.5};
+    VehicleZoneDistribution.postal.vehicles["Base.AMC_bmw_classic"] = {index = -1, spawnChance = 0.1};
+    VehicleZoneDistribution.postal.vehicles["Base.AMC_quad"] = {index = -1, spawnChance = 0.1};
 
     if VehicleZoneDistribution.sea then
         VehicleZoneDistribution.parkingstall.vehicles["Base.TrailerAMCWaverunnerWithBody"] = {index = -1, spawnChance = 0};

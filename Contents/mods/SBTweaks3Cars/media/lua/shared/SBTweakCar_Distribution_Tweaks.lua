@@ -23,6 +23,7 @@ if getActivatedMods():contains("74amgeneralM151A2") then
     VehicleZoneDistribution.trafficjams.vehicles["Base.74amgeneralM151A2Burnt"] = {index = -1, spawnChance = 4};
     VehicleZoneDistribution.military.vehicles["Base.74amgeneralM151A2"] = {index = -1, spawnChance = 22};
     VehicleZoneDistribution.military.vehicles["Base.74amgeneralM151A2Burnt"] = {index = -1, spawnChance = 11};
+    VehicleZoneDistribution.military.vehicles["Base.74amgeneralM151A2MP"] = {index = -1, spawnChance = 8};
 end
 
 -- Increase/Fix 78 AM General M35A2 Spawns
@@ -57,7 +58,7 @@ if getActivatedMods():contains("FORTREDSTONE") then
     end
     if getActivatedMods():contains("74amgeneralM151A2") then
         VehicleZoneDistribution.militarycar.vehicles["Base.74amgeneralM151A2"] = {index = -1, spawnChance = 30};
-        VehicleZoneDistribution.militarycar.vehicles["Base.74amgeneralM151A2MP"] = {index = -1, spawnChance = 8};
+        VehicleZoneDistribution.militarycar.vehicles["Base.74amgeneralM151A2MP"] = {index = -1, spawnChance = 3};
     end
     if getActivatedMods():contains("78amgeneralM35A2") then
         VehicleZoneDistribution.militarycar.vehicles["Base.78amgeneralM35A2"] = {index = -1, spawnChance = 40};
