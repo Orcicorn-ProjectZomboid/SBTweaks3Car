@@ -48,6 +48,10 @@ PATCH: Vehicle Tweaks
     lua/client/SBTweakCar_Tweaks.lua
     lua/client/SBTweakCar_Tweaks.lua
 
+SKIN: 70 DODGE CHALLENGER 
+    textures/Vehicles/Vehicles_70dodge_Lights.png
+    textures/Vehicles/Vehicles_70dodgePD_Shell_bw.png
+
 SKIN: 74 AM General
     textures/Vehicles/Vehicles_74amgeneralm151A2_Shell_black.png
 
