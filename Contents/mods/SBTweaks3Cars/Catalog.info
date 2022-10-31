@@ -36,8 +36,9 @@ PATCH: AquaTsar Motor Club Spawns
 PATCH: Filibuster Military Vehicle removal
     lua/shared/SBTweak_Distribution_Filibuster.lua
 
-PATCH: Harry's Tow Truck Spawn rates 
+PATCH: Harry's Tow Truck Spawn rates & Power (overwrite)
     lua/shared/SBTweak_Distribution_HarryTowTruck.lua
+    media/scripts/vehicles/Chavalier_Rhino.txt
 
 PATCH: Skizo's Riding Lawn Mower
     lua/client/Vehicles/RidingMower.lua
@@ -107,6 +108,17 @@ SKIN: ATA Mustang
     textures/Vehicles/ATA_Mustang_base_red.png
     textures/Vehicles/ATA_Mustang_base_yellow.png
     textures/Vehicles/ATA_Mustang_base0.png
+
+SKIN: Harry's Tow Truck
+    textures/Vehicles/Vehicle_ChavalierRhino_Rust.png
+    textures/Vehicles/Vehicle_ChavalierRhino_Shell_Aquamarine.png
+    textures/Vehicles/Vehicle_ChavalierRhino_Shell_Black.png
+    textures/Vehicles/Vehicle_ChavalierRhino_Shell_Blue.png
+    textures/Vehicles/Vehicle_ChavalierRhino_Shell_Green.png
+    textures/Vehicles/Vehicle_ChavalierRhino_Shell_Lightning.png
+    textures/Vehicles/Vehicle_ChavalierRhino_Shell_Orange.png
+    textures/Vehicles/Vehicle_ChavalierRhino_Shell_Red.png
+    textures/Vehicles/Vehicle_ChavalierRhino_Shell_White.png
 
 TWEAK: Vehicle Spawns (Various mods)
     lua/shared/SBTweakCar_Distribution_Tweaks.lua
