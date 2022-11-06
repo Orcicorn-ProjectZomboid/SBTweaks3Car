@@ -30,7 +30,8 @@ PATCH: 92 Nissan GTR Fixers
 PATCH: ATA Bullbar's are fixable
     scripts/SBTweakCar_Fixer_ATABullbars.txt
 
-PATCH: AquaTsar Motor Club Spawns
+PATCH: AquaTsar Motor Club
+    lua/scripts/MotoQUAD.txt
     lua/shared/SBTweak_Distribution_Aquaclub.lua
 
 PATCH: Filibuster Military Vehicle removal
