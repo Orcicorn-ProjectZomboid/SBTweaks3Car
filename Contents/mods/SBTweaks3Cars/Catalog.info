@@ -121,5 +121,8 @@ SKIN: Harry's Tow Truck
     textures/Vehicles/Vehicle_ChavalierRhino_Shell_Red.png
     textures/Vehicles/Vehicle_ChavalierRhino_Shell_White.png
 
+SKIN: VINO 125 VESPA 
+    textures/Vehicles/Bikes_vino125_Shell_PizzaBoy.png
+
 TWEAK: Vehicle Spawns (Various mods)
     lua/shared/SBTweakCar_Distribution_Tweaks.lua
