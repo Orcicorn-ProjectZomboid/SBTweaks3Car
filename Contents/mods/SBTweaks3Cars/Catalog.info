@@ -24,6 +24,10 @@ MOD: Remove Autotsar Interior Furniture (We use interior mods)
 PATCH: 78 AM General M35A2 Axle
     scripts/SBTweakCar_Recipes_78AMGeneralM35A2.txt
 
+PATCH: 80s Pickup Trucks 
+    lua/shared/Translate/EN/Recipes_EN.txt
+    scripts/SBTweakCar_Recipes_80sPickupTrucks.txt
+
 PATCH: 92 Nissan GTR Fixers 
     scripts/SBTweakCar_Fixer_92NissanGTR.txt
 
