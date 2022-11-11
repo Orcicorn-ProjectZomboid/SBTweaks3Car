@@ -1,0 +1,22 @@
+module Base {
+    recipe CreateVinoStorageBag1 {
+        keep Needle,
+        Thread=3,
+        LeatherStrips=6,
+        Result: Base.VN125storage1,
+        Time: 120,
+        SkillRequired:Tailoring=2,
+        Category:VN125,
+    }
+
+    recipe CreateVinoStorageSide1 {
+        keep Needle,
+        Thread=3,
+        LeatherStrips=6,
+        Result: Base.VN125sidestorage1,
+        Time: 120,
+        SkillRequired:Tailoring=2,
+        Category:VN125,
+    }
+
+}

@@ -50,6 +50,9 @@ PATCH: Vehicle Tweaks
     lua/client/SBTweakCar_Tweaks.lua
     lua/client/SBTweakCar_Tweaks.lua
 
+PATCH: VINO 125 Recipes
+    scripts/SBTweakCar_Recipes_vino125.txt
+
 SKIN: 70 DODGE CHALLENGER 
     textures/Vehicles/Vehicles_70dodge_Lights.png
     textures/Vehicles/Vehicles_70dodgePD_Shell_bw.png
@@ -123,6 +126,7 @@ SKIN: Harry's Tow Truck
 
 SKIN: VINO 125 VESPA 
     textures/Vehicles/Bikes_vino125_Shell_PizzaBoy.png
+    textures/Items_VN125pizzaBox.png
 
 TWEAK: Vehicle Spawns (Various mods)
     lua/shared/SBTweakCar_Distribution_Tweaks.lua
