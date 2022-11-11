@@ -6,4 +6,8 @@ Recipe_EN = {
     Recipe_SBTCUpholsterSeats1 = "Reupholster seat",
     Recipe_SBTCUpholsterSeats2 = "Reupholster seat",
     Recipe_SBTCUpholsterSeats3 = "Reupholster seat",
+
+    /* Vino 125: Missing Recipes */
+    Recipe_CreateVinoStorageBag1 = "Make top storage bag",
+    Recipe_CreateVinoStorageSide1 = "Make side storage bags",
 }
