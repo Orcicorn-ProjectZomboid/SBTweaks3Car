@@ -1,10 +1,13 @@
 module Base {
-	receipe Craft80sTrucksTire {
-        Base.OldTire2/Base.NormalTire2/Base.ModernTire2=1,
+	recipe Craft80sTrucksTire {
+		keep LugWrench,
+        OldTire2/NormalTire2/ModernTire2=1,
         Result: 80sOffroadTireA,
         Time: 250.0,
-        SkillRequired:Mechanics=3,
+        SkillRequired:Mechanics=1,
 		Category:80sPickups,
+		NeedToBeLearn: False,
+		CanBeDoneFromFloor: True,
     }
 
 	/* Temporary until maingame patches */
