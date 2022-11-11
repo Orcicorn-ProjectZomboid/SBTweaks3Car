@@ -64,6 +64,9 @@ SKIN: 70 DODGE CHALLENGER
 SKIN: 74 AM General
     textures/Vehicles/Vehicles_74amgeneralm151A2_Shell_black.png
 
+SKIN: 82 JEEP J10 
+    textures/Vehicles/Vehicles_82jeepJ10_Shell_army_green.png
+
 SKIN: 86 FORD ECONOLINE E150
     textures/Vehicles/Vehicles_86fordE150slide_Shell_white.png
 
