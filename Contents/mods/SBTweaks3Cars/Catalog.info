@@ -26,6 +26,7 @@ PATCH: 78 AM General M35A2 Axle
 
 PATCH: 80s Pickup Trucks 
     lua/shared/Translate/EN/Recipes_EN.txt
+    scripts/SBTweakCar_Fixer_80sPickups.txt
     scripts/SBTweakCar_Recipes_80sPickupTrucks.txt
 
 PATCH: 92 Nissan GTR Fixers 
