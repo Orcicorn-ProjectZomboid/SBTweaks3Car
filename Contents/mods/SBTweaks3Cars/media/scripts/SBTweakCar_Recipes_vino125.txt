@@ -19,4 +19,35 @@ module Base {
         Category:VN125,
     }
 
+    recipe ConvertVN125Tire1 {
+        keep LugWrench,
+        OldTire1,
+        Result: VN125oldTire,
+        Time: 250.0,
+        SkillRequired:Mechanics=1,
+		Category:VN125,
+		NeedToBeLearn: False,
+		CanBeDoneFromFloor: True,
+    }
+    recipe ConvertVN125Tire2 {
+        keep LugWrench,
+        NormalTire1,
+        Result: VN125normalTire,
+        Time: 250.0,
+        SkillRequired:Mechanics=1,
+		Category:VN125,
+		NeedToBeLearn: False,
+		CanBeDoneFromFloor: True,
+    }
+    recipe ConvertVN125Tire3 {
+        keep LugWrench,
+        ModernTire1,
+        Result: VN125modernTire,
+        Time: 250.0,
+        SkillRequired:Mechanics=1,
+		Category:VN125,
+		NeedToBeLearn: False,
+		CanBeDoneFromFloor: True,
+    }
+
 }
