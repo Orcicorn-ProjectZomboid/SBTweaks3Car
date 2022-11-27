@@ -40,6 +40,7 @@ PATCH: AquaTsar Motor Club
     lua/shared/SBTweak_Distribution_Aquaclub.lua
 
 PATCH: CarWanna (add limited vehicle support)
+    lua/client/UI/CWTitleVehicleUI.lua
     lua/shared/Translate/EN/Recipes_EN.txt
     scripts/SBTweakCar_Pinkslips.txt
 
