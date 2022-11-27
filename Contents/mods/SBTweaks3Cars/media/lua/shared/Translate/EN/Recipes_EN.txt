@@ -14,4 +14,7 @@ Recipe_EN = {
     /* 82 Jeep Fix */
     Recipe_MakeJP82FrontBullbarFixed = "Make JP82 Front Bullbar (Fixed)",
     Recipe_Craft80sTrucksTire = "Make 80sPickups Offroad Tires",
+
+    /* CarWanna Recipes */
+    Recipe_MakeCarWannaAutoForm = "Prepare vehicle registration form", 
 }

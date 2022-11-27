@@ -39,6 +39,10 @@ PATCH: AquaTsar Motor Club
     lua/scripts/MotoQUAD.txt
     lua/shared/SBTweak_Distribution_Aquaclub.lua
 
+PATCH: CarWanna (add limited vehicle support)
+    lua/shared/Translate/EN/Recipes_EN.txt
+    scripts/SBTweakCar_Pinkslips.txt
+
 PATCH: Filibuster Military Vehicle removal
     lua/shared/SBTweak_Distribution_Filibuster.lua
 

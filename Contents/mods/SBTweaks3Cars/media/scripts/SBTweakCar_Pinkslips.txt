@@ -1,0 +1,113 @@
+module Base {
+    recipe MakeCarWannaAutoForm {
+		keep [Recipe.GetItemTypes.Write],
+		SheetPaper2=1,
+		Result: Base.AutoForm,
+		Time: 69.0,
+	}
+}
+
+module PinkSlip {
+    imports {
+        Base
+    }      
+
+    item AMC_bmw_classic {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: BWM R80/7 Classic,
+        VehicleID = Base.AMC_bmw_classic,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+        Tags = PinkSlip,
+    }
+
+    item AMC_bmw_custom {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: BWM R80/7 Custom,
+        VehicleID = Base.AMC_bmw_custom,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+        Tags = PinkSlip,
+    }
+
+    item AMC_harley {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: Xarley-Davitsan Sportstep '86,
+        VehicleID = Base.AMC_harley,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        GasTank = 100,
+        HasKey = true,
+        Tags = PinkSlip,
+    }
+
+    item vino125 {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: '13 Yamaha Vino 125,
+        VehicleID = Base.vino125,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        EngineQuality = 100,
+        GasTank = 100,
+        TirePSI = 100,
+        Battery = 1,
+        HasKey = true,
+        Tags = PinkSlip,
+    }
+
+    item vino125b {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: '13 Yamaha Vino 125b,
+        VehicleID = Base.vino125b,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        EngineQuality = 100,
+        GasTank = 100,
+        TirePSI = 100,
+        Battery = 1,
+        HasKey = true,
+        Tags = PinkSlip,
+    }
+
+    item vino125pizza {
+        DisplayCategory = CarWanna,
+        Weight  = 0.1,
+        Type    = Normal,
+        Icon    = AutoTitle,
+        DisplayName = PinkSlip: '13 Yamaha Vino (PizzaBoy),
+        VehicleID = Base.vino125pizza,
+        WorldStaticModel = CW.AutoTitle,   
+        Tooltip = Tooltip_ClaimOutSide,	
+        Condition = 100,
+        EngineQuality = 100,
+        GasTank = 100,
+        TirePSI = 100,
+        Battery = 1,
+        HasKey = true,
+        Tags = PinkSlip,
+    }
+}
