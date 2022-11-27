@@ -3,6 +3,8 @@
     SEE LINE 10 with "whiteListVehicles" and add vehicles you want to allow.
 ]]
 
+if getActivatedMods():contains("CW") == false then return; end;
+
 require "ISUI/ISModalDialog"
 require "luautils"
 
