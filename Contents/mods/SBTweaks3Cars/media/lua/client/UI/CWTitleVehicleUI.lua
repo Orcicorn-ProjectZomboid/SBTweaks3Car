@@ -13,7 +13,11 @@ local whiteListVehicles = {
     "base.amc_harley",
     "base.vino125",
     "base.vino125b",
-    "base.vino125pizza"
+    "base.vino125pizza",
+    "base.ridingmower",
+    "base.minimower",
+    "base.racingmower",
+    "base.ridingmower_trailer",
 };
 
 -- Function to check if items are in the whitelist, see line 74 for usage
@@ -107,10 +111,10 @@ function CWTitleVehicle.UI.addOptionToMenuOutsideVehicle(player, context, vehicl
         text = text .. " <LINE> <LINE> <RGB:1,1,1> " .. getText("Tooltip_CW_Key")
         if not key then
             local ktcolor = "<RGB:1,1,0> "
-            if SandboxVars.CarWanna.MustHaveKey then
-                notAvailable = true
-                ktcolor = "<RGB:1,0,0> "
-            end
+            -- if SandboxVars.CarWanna.MustHaveKey then
+            --     notAvailable = true
+            --     ktcolor = "<RGB:1,0,0> "
+            -- end
             text = text .. " <LINE> ".. ktcolor .. getText("Tooltip_CW_KeyNo")
         else
             text = text .. " <LINE> <RGB:0,1,0> " .. getText("Tooltip_CW_KeyYes")
