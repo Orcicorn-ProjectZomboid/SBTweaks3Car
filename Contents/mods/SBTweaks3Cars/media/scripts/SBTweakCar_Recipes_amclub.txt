@@ -1,0 +1,31 @@
+module Base {
+    recipe CreateBMWBag1 {
+        keep Needle,
+        Thread=2,
+        LeatherStrips=2,
+        Result: Autotsar.ATAMotoBagBMW1,
+        Time: 90,
+        SkillRequired:Tailoring=1,
+        Category:Tuning,
+    }
+
+    recipe CreateBMWBag2 {
+        keep Needle,
+        Thread=3,
+        LeatherStrips=3,
+        Result: Autotsar.ATAMotoBagBMW2,
+        Time: 120,
+        SkillRequired:Tailoring=2,
+        Category:Tuning,
+    }
+
+    recipe CreateHarleyBag {
+        keep Needle,
+        Thread=3,
+        LeatherStrips=3,
+        Result: Autotsar.ATAMotoHarleyBag,
+        Time: 120,
+        SkillRequired:Tailoring=2,
+        Category:Tuning,
+    }
+}

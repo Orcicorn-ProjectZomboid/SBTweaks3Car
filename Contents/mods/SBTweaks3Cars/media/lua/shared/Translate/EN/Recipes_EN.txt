@@ -17,4 +17,9 @@ Recipe_EN = {
 
     /* CarWanna Recipes */
     Recipe_MakeCarWannaAutoForm = "Prepare vehicle registration form", 
+
+    /* Autotsar Motorcliub bags
+    Recipe_CreateBMWBag1 = "Make BWM R80/7 sidebag (small)",
+    Recipe_CreateBMWBag2 = "Make BWM R80/7 sidebag (large)",
+    Recipe_CreateHarleyBag = "Make Xarley-Davitsan saddlebag",
 }

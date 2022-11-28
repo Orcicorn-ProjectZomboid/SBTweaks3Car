@@ -1,0 +1,12 @@
+ItemName_EN = {
+    ItemName_Autotsar.ATAMotoBagBMW1 = "BWM R80/7 sidebag (small)",
+    ItemName_Autotsar.ATAMotoBagBMW2 = "BWM R80/7 sidebag (large)",
+    ItemName_Autotsar.ATAMotoHarleyBag = "Xarley-Davitsan saddlebag",
+    ItemName_Autotsar.ATAMotoHarleyMuffler = "Xarley-Davitsan muffler",
+    ItemName_Autotsar.ATAMotoHarleyOldTire = "Xarley-Davitsan old tire",
+    ItemName_Autotsar.ATAMotoHarleyNormalTire = "Xarley-Davitsan normal tire",
+    ItemName_Autotsar.ATAMotoHarleyModernTire = "Xarley-Davitsan modern tire",
+    ItemName_Autotsar.ATAMotoHarleyGasTank = "Xarley-Davitsan gastank",
+    ItemName_Autotsar.ATAMotoHarleyHolster = "Xarley-Davitsan holster",
+    ItemName_Autotsar.ATAMotoHarleySeat = "Xarley-Davitsan seat",
+}
