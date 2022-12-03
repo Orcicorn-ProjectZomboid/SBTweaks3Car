@@ -146,6 +146,7 @@ SKIN: Harry's Tow Truck
 
 SKIN: VINO 125 VESPA 
     textures/Vehicles/Bikes_vino125_Shell_PizzaBoy.png
+    textures/Vehicles/Bikes_vino125_Shell_YellowBrown.png
     textures/Items_VN125pizzaBox.png
 
 TWEAK: Vehicle Spawns (Various mods)
