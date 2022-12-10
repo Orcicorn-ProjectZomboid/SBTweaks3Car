@@ -149,5 +149,9 @@ SKIN: VINO 125 VESPA
     textures/Vehicles/Bikes_vino125_Shell_YellowBrown.png
     textures/Items_VN125pizzaBox.png
 
+SKIN: 89 FORD BRONCO
+    textures/Vehicles/Vehicles_89fordBronco_Shell_black.png
+    textures/Vehicles/Vehicles_89fordBronco_Shell.png
+
 TWEAK: Vehicle Spawns (Various mods)
     lua/shared/SBTweakCar_Distribution_Tweaks.lua
