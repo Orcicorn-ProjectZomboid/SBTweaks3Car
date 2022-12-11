@@ -76,9 +76,14 @@ SKIN: 74 AM General
 
 SKIN: 82 JEEP J10 
     textures/Vehicles/Vehicles_82jeepJ10_Shell_army_green.png
+    textures/Vehicles/Vehicles_82jeepJ10_Shell_blue.png
 
 SKIN: 86 FORD ECONOLINE E150
     textures/Vehicles/Vehicles_86fordE150slide_Shell_white.png
+
+SKIN: 89 FORD BRONCO
+    textures/Vehicles/Vehicles_89fordBronco_Shell_black.png
+    textures/Vehicles/Vehicles_89fordBronco_Shell.png
 
 SKIN: 92 M101A3 Cargo Trailer 
     textures/Vehicles/TrailerM101A3cargo_Shell_camoCombo.png
@@ -148,10 +153,6 @@ SKIN: VINO 125 VESPA
     textures/Vehicles/Bikes_vino125_Shell_PizzaBoy.png
     textures/Vehicles/Bikes_vino125_Shell_YellowBrown.png
     textures/Items_VN125pizzaBox.png
-
-SKIN: 89 FORD BRONCO
-    textures/Vehicles/Vehicles_89fordBronco_Shell_black.png
-    textures/Vehicles/Vehicles_89fordBronco_Shell.png
 
 TWEAK: Vehicle Spawns (Various mods)
     lua/shared/SBTweakCar_Distribution_Tweaks.lua
