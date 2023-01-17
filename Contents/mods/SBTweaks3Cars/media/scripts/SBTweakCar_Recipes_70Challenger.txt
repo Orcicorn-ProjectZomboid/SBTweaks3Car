@@ -1,0 +1,10 @@
+module Base {
+    recipe Convert to DG70 Tire {
+        keep LugWrench,
+        Base.OldTire3/Base.NormalTire3/Base.ModernTire3=1,
+        Result: DodgeRTtire3,
+        Time: 250.0,
+        SkillRequired: Mechanics=2,
+        Category:DG70,
+    }
+}

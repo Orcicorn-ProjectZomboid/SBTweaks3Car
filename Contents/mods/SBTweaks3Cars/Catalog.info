@@ -21,6 +21,9 @@ MOD: Propane Truck functionality
 MOD: Remove Autotsar Interior Furniture (We use interior mods)
     scripts/vehicles/trailer_home.txt
 
+PATCH: 70 Dodge Challenger Recipes 
+    scripts/SBTweakCar_Recipes_70Challenger.txt
+
 PATCH: 78 AM General M35A2 Axle
     scripts/SBTweakCar_Recipes_78AMGeneralM35A2.txt
 
